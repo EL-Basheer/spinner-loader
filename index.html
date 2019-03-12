@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loading Spinner </title>
+
+    <style type="text/css">
+    body {
+        background: #F0F0F7;
+    }
+        .spinner {
+            width: 130px;
+            height: 130px;
+            border: 10px solid silver;
+            border-top: 10px solid blue;
+            border-radius: 50%;
+             margin-left: 40%;
+             margin-top: 150px;
+             animation: loader 1s linear infinite;
+             -webkit-animation: loader 1s linear infinite;
+             -moz-animation: loader 1s linear infinite;
+             -ms-animation: loader 1s linear infinite;
+             -o-animation: loader 1s linear infinite;
+        }
+        @keyframes loader {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+
+             }
+
+    </style>
+</head>
+<body>
+<!-- Loading spinner -->
+    <div class="spinner"></div>
+
+</body>
+</html>
